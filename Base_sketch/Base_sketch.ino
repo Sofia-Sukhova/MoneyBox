@@ -26,12 +26,12 @@ volatile int flag = 0;
 int money[9] = {0}; // 8 монет, 9 - для отработки ошибокы
 
 #define VALUE_FOR_1_K   -100 
-#define VALUE_FOR_10_K  -820
+#define VALUE_FOR_10_K  -850
 #define VALUE_FOR_5_K   -60
-#define VALUE_FOR_50_K  -70
-#define VALUE_FOR_1_R   -70
+#define VALUE_FOR_50_K  -50
+#define VALUE_FOR_1_R   -65
 #define VALUE_FOR_10_R  -40
-#define VALUE_FOR_2_R   -100
+#define VALUE_FOR_2_R   -80
 #define VALUE_FOR_5_R   -200
 
 #define RETURN VALUE_FOR_1_K + VALUE_FOR_10_K + VALUE_FOR_5_K + VALUE_FOR_50_K + VALUE_FOR_1_R + VALUE_FOR_2_R + VALUE_FOR_5_R + VALUE_FOR_10_R - 100
