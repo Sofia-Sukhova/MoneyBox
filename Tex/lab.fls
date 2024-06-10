@@ -671,6 +671,34 @@ INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\indentfirst.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\geometry\geometry.sty
@@ -771,18 +799,8 @@ INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT .\lab.out
-INPUT lab.out
-INPUT .\lab.out
-INPUT lab.out
-INPUT .\lab.out
-INPUT lab.out
-INPUT .\lab.out
-INPUT lab.out
-OUTPUT lab.pdf
-INPUT .\lab.out
-INPUT .\lab.out
 OUTPUT lab.out
+OUTPUT lab.pdf
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1728.tfm
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1728.tfm
@@ -830,13 +848,13 @@ INPUT .\intro.tex
 INPUT intro.tex
 INPUT .\intro.tex
 INPUT intro.tex
-INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1440.tfm
-INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1440.tfm
 INPUT .\project.tex
 INPUT project.tex
 INPUT .\project.tex
 INPUT project.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1440.tfm
+INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1440.tfm
 INPUT .\scheme_idea.jpg
 INPUT .\scheme_idea.jpg
 INPUT scheme_idea.jpg
@@ -887,10 +905,13 @@ INPUT .\sborka.tex
 INPUT sborka.tex
 INPUT .\sborka.tex
 INPUT sborka.tex
-INPUT .\scheme_idea.jpg
-INPUT .\scheme_idea.jpg
-INPUT scheme_idea.jpg
-INPUT .\scheme_idea.jpg
+INPUT .\scheme_png.png
+INPUT .\scheme_png.png
+INPUT scheme_png.png
+INPUT .\scheme_png.png
+INPUT .\scheme_png.png
+INPUT .\scheme_png.png
+INPUT .\scheme_png.png
 INPUT .\progr.tex
 INPUT progr.tex
 INPUT .\progr.tex
@@ -899,20 +920,18 @@ INPUT .\result.tex
 INPUT result.tex
 INPUT .\result.tex
 INPUT result.tex
-INPUT .\links.tex
-INPUT links.tex
-INPUT .\links.tex
-INPUT links.tex
 INPUT lab.aux
 INPUT .\lab.out
 INPUT .\lab.out
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1200.pk
-INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
+INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\larm1200.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1728.pk
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi12.pfb
