@@ -25,14 +25,16 @@ volatile int flag = 0;
 
 int money[9] = {0}; // 8 монет, 9 - для отработки ошибокы
 
-#define VALUE_FOR_1_K   10 
-#define VALUE_FOR_10_K  278
-#define VALUE_FOR_5_K   22
-#define VALUE_FOR_50_K  20
-#define VALUE_FOR_1_R   20
-#define VALUE_FOR_10_R  50
-#define VALUE_FOR_2_R   20
-#define VALUE_FOR_5_R   65
+#define VALUE_FOR_1_K   -100 
+#define VALUE_FOR_10_K  -820
+#define VALUE_FOR_5_K   -60
+#define VALUE_FOR_50_K  -70
+#define VALUE_FOR_1_R   -70
+#define VALUE_FOR_10_R  -40
+#define VALUE_FOR_2_R   -100
+#define VALUE_FOR_5_R   -200
+
+#define RETURN VALUE_FOR_1_K + VALUE_FOR_10_K + VALUE_FOR_5_K + VALUE_FOR_50_K + VALUE_FOR_1_R + VALUE_FOR_2_R + VALUE_FOR_5_R + VALUE_FOR_10_R - 100
 
 #define TARGER_MESSAGE "Budget"
 
@@ -61,7 +63,7 @@ ISR(PCINT1_vect) {  // пины A0-A5
 void my_rotate(int R, int W) {
   stepper.setTarget(R , RELATIVE);
 
-  for (int i = 0; i < R * 4; i++){
+  for (int i = 0; i < abs(R) * 2; i++){
     stepper.tick();
     delay(1);
   }
@@ -69,9 +71,9 @@ void my_rotate(int R, int W) {
 }
 
 void comeback() {
-  stepper.setTarget(-550);
+  stepper.setTarget(abs(RETURN));
 
-  for (int i = 0; i < 1000; i++){
+  for (int i = 0; i < 2* abs(RETURN); i++){
     stepper.tick();
     delay(1);
   }
@@ -144,7 +146,7 @@ void setup() {
   stepper.reverse(true);
   stepper.setMaxSpeed(500);
   stepper.setAcceleration(0);
-  stepper.setTarget(1000);
+  stepper.setTarget(1500);
 
   pinMode(inSEN, INPUT);
   pinMode(button, INPUT);
@@ -163,6 +165,7 @@ void setup() {
   }
 
   sc_greeter();
+  Serial.begin(9600);
 }
 
 int counter = 0;
@@ -192,7 +195,9 @@ void loop(){
   if (data > 100) {
     counter = 0;
 
-    if      (check(money, VALUE_FOR_1_K,  TIME_TO_FALL, TIME_TO_CHECK)){refresh = 1;new_money = 0;}
+    int ret = 0;
+
+    if      (check(money, VALUE_FOR_1_K,  TIME_TO_FALL, TIME_TO_CHECK)){refresh = 1;new_money = 0; }
     else if (check(money, VALUE_FOR_10_K, TIME_TO_FALL, TIME_TO_CHECK)){refresh = 1;new_money = 1;money[0]++;}
     else if (check(money, VALUE_FOR_5_K,  TIME_TO_FALL, TIME_TO_CHECK)){refresh = 1;new_money = 3;money[2]++;}
     else if (check(money, VALUE_FOR_50_K, TIME_TO_FALL, TIME_TO_CHECK)){refresh = 1;new_money = 2;money[1]++;}
