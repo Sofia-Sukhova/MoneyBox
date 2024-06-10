@@ -21,6 +21,8 @@ rad.json
 #Test results file
 TestResults.xml
 
+.DS_Store
+
 Tex/*.aux
 Tex/*.fdb_latexmk
 Tex/*.fls
