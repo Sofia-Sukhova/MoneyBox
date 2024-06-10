@@ -771,8 +771,18 @@ INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-OUTPUT lab.out
+INPUT .\lab.out
+INPUT lab.out
+INPUT .\lab.out
+INPUT lab.out
+INPUT .\lab.out
+INPUT lab.out
+INPUT .\lab.out
+INPUT lab.out
 OUTPUT lab.pdf
+INPUT .\lab.out
+INPUT .\lab.out
+OUTPUT lab.out
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\graphicx.sty
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1728.tfm
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1728.tfm
@@ -822,11 +832,11 @@ INPUT .\intro.tex
 INPUT intro.tex
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\larm1440.tfm
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\labx1440.tfm
-INPUT .\project.tex
-INPUT project.tex
-INPUT .\project.tex
-INPUT project.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
+INPUT .\project.tex
+INPUT project.tex
+INPUT .\project.tex
+INPUT project.tex
 INPUT .\scheme_idea.jpg
 INPUT .\scheme_idea.jpg
 INPUT scheme_idea.jpg
@@ -842,19 +852,75 @@ INPUT .\scheme_idea.jpg
 INPUT .\scheme_idea.jpg
 INPUT scheme_idea.jpg
 INPUT .\scheme_idea.jpg
-INPUT .\scheme_idea.jpg
-INPUT .\scheme_idea.jpg
-INPUT scheme_idea.jpg
-INPUT .\scheme_idea.jpg
+INPUT .\kryshka_real.jpg
+INPUT .\kryshka_real.jpg
+INPUT kryshka_real.jpg
+INPUT .\kryshka_real.jpg
+INPUT .\kryshka_real.jpg
+INPUT .\kryshka_real.jpg
+INPUT .\kryshka_real.jpg
+INPUT .\kryshka_model.jpg
+INPUT .\kryshka_model.jpg
+INPUT kryshka_model.jpg
+INPUT .\kryshka_model.jpg
+INPUT .\kryshka_model.jpg
+INPUT .\kryshka_model.jpg
+INPUT .\kryshka_model.jpg
 INPUT .\fabric.tex
 INPUT fabric.tex
 INPUT .\fabric.tex
 INPUT fabric.tex
-INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmtt.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmtt.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmtt.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\cyrillic\t2acmtt.fd
-INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\tfm\lh\lh-t2a\latt1200.tfm
+INPUT .\korob.jpg
+INPUT .\korob.jpg
+INPUT korob.jpg
+INPUT .\korob.jpg
+INPUT .\korob.jpg
+INPUT .\korob.jpg
+INPUT .\korob.jpg
+INPUT .\sborka.tex
+INPUT sborka.tex
+INPUT .\sborka.tex
+INPUT sborka.tex
+INPUT .\scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT .\progr.tex
+INPUT progr.tex
+INPUT .\progr.tex
+INPUT progr.tex
+INPUT .\project.tex
+INPUT project.tex
+INPUT .\project.tex
+INPUT project.tex
+INPUT .\scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT scheme_idea.jpg
+INPUT .\scheme_idea.jpg
+INPUT .\kryshka_real.jpg
+INPUT .\kryshka_real.jpg
+INPUT kryshka_real.jpg
+INPUT .\kryshka_real.jpg
+INPUT .\kryshka_model.jpg
+INPUT .\kryshka_model.jpg
+INPUT kryshka_model.jpg
+INPUT .\kryshka_model.jpg
+INPUT .\fabric.tex
+INPUT fabric.tex
+INPUT .\fabric.tex
+INPUT fabric.tex
+INPUT .\korob.jpg
+INPUT .\korob.jpg
+INPUT korob.jpg
+INPUT .\korob.jpg
 INPUT .\sborka.tex
 INPUT sborka.tex
 INPUT .\sborka.tex
@@ -874,8 +940,6 @@ INPUT result.tex
 INPUT lab.aux
 INPUT .\lab.out
 INPUT .\lab.out
-INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1200.pk
-INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\latt1200.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\fedor\AppData\Local\MiKTeX\fonts\pk\ljfour\lh\lh-t2a\dpi600\labx1440.pk
