@@ -36,7 +36,8 @@
 
 ## Тестирование устройства
 
-[![Видео работы](https://github.com/Sofia-Sukhova/MoneyBox/blob/main/Tex/kopilka.jpg)](https://github.com/Sofia-Sukhova/MoneyBox/blob/main/testing.mp4)
+
+https://github.com/Sofia-Sukhova/MoneyBox/assets/80464142/ff9c0ffd-643b-4358-b3ea-821b1e63e1c1
 
 ![Фото готовой копилки снаружи](https://github.com/Sofia-Sukhova/MoneyBox/blob/main/Tex/kopilka.jpg)
 
