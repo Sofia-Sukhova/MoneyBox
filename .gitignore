@@ -21,9 +21,9 @@ rad.json
 #Test results file
 TestResults.xml
 
-*.aux
-*.fdb_latexmk
-*.fls
-*.out
-*.gz
-*.log
+Tex/*.aux
+Tex/*.fdb_latexmk
+Tex/*.fls
+Tex/*.out
+Tex/*.gz
+Tex/*.log
