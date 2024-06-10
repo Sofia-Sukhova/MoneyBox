@@ -36,13 +36,14 @@
 
 ## Тестирование устройства
 
-![Фото готовой копилки снаружи](https://github.com/Sofia-Sukhova/MoneyBox/blob/main/Tex/kopilka.jpg)
+![Видео работы](https://github.com/Sofia-Sukhova/MoneyBox/blob/main/testing.mp4)
 
+![Фото готовой копилки снаружи](https://github.com/Sofia-Sukhova/MoneyBox/blob/main/Tex/kopilka.jpg)
 
 ![Фото готовой копилки внутри](https://github.com/Sofia-Sukhova/MoneyBox/blob/main/Tex/kryshka_real.jpg)
 
 
-![Видео работы]()
+
   
   
   
