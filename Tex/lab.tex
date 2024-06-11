@@ -20,7 +20,10 @@
 \usepackage[rgb]{xcolor}
 \hypersetup{ % Гиперссылки
 	colorlinks=true, % false: ссылки в рамках
-	urlcolor=blue % на URL
+	urlcolor=blue, % на URL
+    linkcolor=blue,
+	citecolor=blue,
+    filecolor=blue 
 }
 
 \usepackage[T2A]{fontenc}
@@ -37,7 +40,13 @@
 
 \usepackage{listings}             % Include the listings-package
 \lstset{language=[ANSI]C}
-\lstset{numbers=left, numberstyle=\normal, stepnumber=1}
+\lstset{numbers=left, stepnumber=1}
+
+\bibliographystyle{gost-numeric.bbx}
+\usepackage[hyperref=true,bibencoding=utf8,bibstyle=gost-numeric,sorting=none]{biblatex}
+\addbibresource{refs.bib}
+\DeclareFieldFormat{url}{\href{#1}{\mkbibacro{URL}}}
+
 
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 
@@ -80,9 +89,9 @@
 	\input{intro.tex}
 	\input{project.tex}
 	\input{fabric.tex}
-	\input{sborka.tex}
 	\input{progr.tex}
 	\input{result.tex}
+	\input{links.tex}
 	
 	
 \end{document}

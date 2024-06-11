@@ -29,3 +29,7 @@ Tex/*.fls
 Tex/*.out
 Tex/*.gz
 Tex/*.log
+Tex/*.bbl
+Tex/*.bcf
+Tex/*.blg
+Tex/*.xml
